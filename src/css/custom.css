@@ -1,0 +1,68 @@
+.pageStylesHere{
+    background-color: white;
+    min-height: 92vh;
+    color: #6D0FB6;
+}
+.baseColor{
+    color: #6D0FB6;
+}
+.custom-switch{
+    padding: 20px;
+    color: #6D0FB6;
+}
+.custom-control-input{
+    color: #6D0FB6;
+    padding: 12px;
+}
+.courser{
+    cursor: pointer;
+}
+.linkEffects:hover{
+    text-decoration: none;
+    color: #6D0FB6;
+}
+.baseBackround{
+    background-color: #6D0FB6;
+    color: white;
+}
+.commonHover:hover{
+    background-color: #6D0FB6;
+    color: white;
+}
+.btnvtwo:hover{
+    color: white;
+}
+.mainBorder{
+    border: 1px solid #6D0FB6;
+}
+.activeIcon{
+    background-color: #6D0FB6;
+    color: white;
+}
+.thisIsActions{
+    display: none;
+}
+.activeIcon:hover{
+    background-color: #6D0FB6;
+    color: white;
+}
+.showActionButtons:hover .thisIsActions {
+    display: block;
+}
+
+.custom-control-input:focus ~ 
+          .custom-control-label::before {
+                border-color: #6D0FB6 !important;
+            }
+            .custom-control-input:checked ~ 
+          .custom-control-label::before {
+                border-color: #6D0FB6 !important;
+                background-color: #6D0FB6 !important;
+            }
+
+            .custom-control-input:active ~ 
+          .custom-control-label::before {
+                background-color: #6D0FB6 !important;
+                border-color: #6D0FB6 !important;
+            }
+  
